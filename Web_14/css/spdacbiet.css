@@ -1,0 +1,29 @@
+
+.prd-block{
+    width: 100%;
+    height: auto; 
+    
+}
+.prd-block h2{
+    border: 1px solid black;
+    background-color: #444;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.prd-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px;
+    margin-left: 35px;
+    padding: 15px 0px
+}
+.prd-item{
+    width: 200px;
+    text-align: center;
+    border: 1.5px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}

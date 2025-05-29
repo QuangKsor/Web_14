@@ -1,0 +1,23 @@
+.pr-block{
+    width: 100%;
+    height: auto;
+}
+.pr-block h2{
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(223, 166, 92);
+    padding: 5px;
+    color: rgb(23, 97, 194);
+}
+.prd-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left; 
+    gap: 25px; 
+    margin-left: 35px;
+    padding: 20px 0;
+}
+.prd-item h3 a {
+    text-decoration: none;
+}

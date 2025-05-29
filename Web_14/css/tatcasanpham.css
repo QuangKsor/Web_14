@@ -1,0 +1,43 @@
+body{
+    background-color: #CCC;
+}
+#pagination{
+    width: 720px;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 5px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+#pagination span{
+    color:#C40000;
+}
+#pagination a{
+    text-decoration: none;
+    color: #000;
+}
+.pr-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 25px; 
+    margin-left: 35px;
+    padding: 20px 0;
+}
+
+.prd-item {
+    width: 200px; 
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}

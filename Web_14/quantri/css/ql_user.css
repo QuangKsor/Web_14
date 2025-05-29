@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+table, tr, td{
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.l5 a{
+    text-decoration: none;
+}
+
+#main #add-prd a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#main p{
+    margin-bottom: 10px;
+}

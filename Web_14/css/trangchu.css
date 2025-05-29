@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    background-color: #999;
+	line-height: 1.6;
+}
+#wrapper{
+	width: 100%;
+    margin: 10px auto;
+	background-color: #f3f3f3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* Search */
+#head-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin: 10px;
+}
+
+#search-bar input {
+	padding: 5px;
+	border-radius: 10px;
+}
+#head-container .auth-container{
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	gap: 10px;
+}
+
+
+#head-container .auth-link {
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #0059b3;
+	padding: 5px 10px;
+	border-radius: 5px;
+	float: right;
+}
+#head-container #logo img{
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#search-bar input:hover {
+	background-color: #999;
+}
+
+/* Header */
+header {
+	background-color: #565;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+nav {
+	background-color: white;
+	padding: 16px;
+	margin-bottom: 5px;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 80px;
+}
+nav a {
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+nav a:hover {
+	color: rgb(118, 236, 118);
+}
+#main{
+	width: 1010px;
+	height: auto;
+	margin: 0 auto;
+	border: 2px solid black;
+	margin-bottom: 2px;
+	background-color: #aca4a4;
+}
+.prd-block{
+    width: 1000px;
+    height: auto; 
+	margin: 0 auto;
+	
+}
+.prd-block h2{
+    border: 1px solid black;
+    background-color: #444;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+	text-align: center;
+}
+.prd-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0px
+}
+.prd-item{
+    width: 200px;
+    text-align: center;
+    border: 1.5px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.prd-only{
+    width: 720px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.container-comment .information-comment-user{
+    display: flex;
+    
+}
+.information-comment-user li{
+    list-style: none;
+}
+
+.container-comment input{
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+    margin-right: 35px;
+}
+#footer{
+	width: 100%;
+	height: auto;
+	background-color: #444;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+#footer h4 {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+#footer p{
+	color: aquamarine;
+	font-size: 15px;
+	text-align: center;
+}
