@@ -3,7 +3,7 @@
     <h2>Sản phẩm đặc biệt</h2>
     <div class="prd-list">
         <?php
-        $sql = "SELECT * FROM sanpham WHERE dac_biet = 1 ORDER BY id_sp DESC LIMIT 0,8";
+        $sql = "SELECT * FROM sanpham WHERE dac_biet = 1 ORDER BY id_sp DESC LIMIT 0,10";
         $query = mysqli_query($conn, $sql);
         while($row = mysqli_fetch_array($query)){
             ?>
